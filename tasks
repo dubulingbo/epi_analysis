@@ -4,7 +4,7 @@
 所用技术：hadoop及其内部组件，java编程
 
 任务细化：
-1. 环境搭建（centos上hadoop集群环境配置，windows上安装java开发环境）
+done 1. 环境搭建（centos上hadoop集群环境配置，windows上安装java开发环境）
 2. 数据处理
 
 
