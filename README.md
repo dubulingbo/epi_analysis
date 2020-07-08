@@ -5,6 +5,7 @@
 环境搭建：centos6.x + jdk1.8 + hadoop2.7.2 + mysql5.7 + sqoop1.4.6
 
 sqoop : 用于将在HDFS和MySQL之间传递数据
+
 Hadoop mapreduce : 用于数据处理
 
 ## 文件说明
