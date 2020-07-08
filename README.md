@@ -17,7 +17,12 @@ Hadoop mapreduce : 用于数据处理
 1. 搭建环境，参照<<环境搭建.docx>>
 2. 将[mapreduce任务jar包]和[continent_day_count.sh脚本文件]上传到 /data/soft/jobs 目录下
 3. 执行 continent_day_count.sh 脚本文件就能运行
-	bash -x /data/soft/jobs/continent_day_count.sh
+```shell
+    bash -x /data/soft/jobs/continent_day_count.sh
+```
+
 4. 也可以定义 crontab 定时任务
+```shell
 crontab -e
 3 0 * * * /data/soft/jobs/continent_day_count.sh
+```
